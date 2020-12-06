@@ -36,11 +36,15 @@ function imprimirHTML(datos) {
         <div class="pt-3 col-sm-12">
             <div class="card bg-light flex-row-reverse">      
                 <img src="${image}" class="img-fluid" alt="imagen restaurante" style="width: 40%; height: auto; object-fit: cover;">
-                <div class="card-body">
-                   <h2 class="card-title text-dark">"${title}"</h2>
+                <div class="card-body" >
+                <div style="overflow:hidden;height:40px;">
+                   <h3 class="card-title text-dark">"${title}"</h3>
+                   </div>
+                   <div style="overflow:hidden;height:200px;">
                     <p class="card-text text-dark">
                     "${summary}"
                     </p>
+                    </div>
                 <a href="${sourceUrl}" class="btn btn-dark float-right">Seguir leyendo</a>
               </div>
            </div>
