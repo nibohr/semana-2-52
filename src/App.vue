@@ -4,17 +4,6 @@
     <seccion-servicos></seccion-servicos>
 
     <div class="container">
-      <div id="news" class="mt-3 pt-3">
-        <h2 class="text-center mt-5">Noticias principales</h2>
-    </div>
-      <div class="row justify-content-evenly">
-        <div class="col-6 pt-3">
-          <api-noticias></api-noticias>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
       <div id="team" class="mt-3 pt-3">
         <h2 class="text-center mt-5">Equipo de trabajo</h2>
       </div>
@@ -34,7 +23,6 @@
 <script>
 import FooterComponente from "./components/FooterComponente.vue";
 import TeamCard from "./components/TeamCard.vue";
-import ApiNoticias from "./components/ApiNoticias.vue";
 import SeccionServicos from'./components/SeccionServicos.vue';
 
 export default {
@@ -42,7 +30,6 @@ export default {
   components: {
     FooterComponente,
     TeamCard,
-    ApiNoticias,
     SeccionServicos
   },
   data() {
