@@ -30,7 +30,7 @@ function imprimirHTML(datos) {
      * las etiquetas de arriba las escribo abajo, este ejemplo me traerá titulo, tiempo empleado para la receta,
      * la imagen de la receta en un img src, el resumen de la receta en un <p> y el link en un href de la receta
      */
-    div.setAttribute("style","width: 50%;");
+    
     div.setAttribute("class","col-sm-12 col-md-6");
     div.innerHTML = `
         <div class="pt-3 col-sm-12">
